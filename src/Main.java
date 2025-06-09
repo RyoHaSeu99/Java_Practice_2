@@ -1,16 +1,11 @@
 public class Main {
+    public static void main(String[] args) {
+        int[] numbers = {2, 4, 6, 8, 10};
+        int sum = 0;
 
-    public static void greet() {
-        System.out.println("Hello, World!");
-    }
-
-    public static void greet(String Name) {
-        System.out.println("Hello, " + Name + "!");
-    }
-
-        public static void main(String[] args) {
-            greet();
-            greet("Alice");
-
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+        System.out.println(sum);
     }
 }
