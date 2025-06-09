@@ -1,15 +1,16 @@
 public class Main {
-    public static int add(int a, int b) {
 
-        return a + b;
+    public static void greet() {
+        System.out.println("Hello, World!");
     }
 
-    public static int  add(int a, int b, int c) {
-        return a + b + c;
+    public static void greet(String Name) {
+        System.out.println("Hello, " + Name + "!");
     }
 
-    public static void main(String[] args) {
-        System.out.println("a + b = " + add(1, 2));
-        System.out.println("a + b + c = " + add(3, 4, 5));
+        public static void main(String[] args) {
+            greet();
+            greet("Alice");
+
     }
 }
